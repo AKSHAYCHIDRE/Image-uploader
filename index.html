@@ -1,0 +1,35 @@
+<html lang="en">
+<head>    
+	<link rel="stylesheet" type="text/css"  media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="style.css">
+</head>		
+	<body>
+		<div class="image-uploader-wrappper">
+			<div class="wrapper">
+				<div class="drag-and-drop-wrapper">
+					<div class="content">
+						<svg xmlns="http://www.w3.org/2000/svg" width="144.299" height="104.996" viewBox="0 0 144.299 104.996">
+							<g>
+								<g>
+									<path fill="#badaf5" d="M112.75 171.646H81.791v-31.284h10.231a3.2 3.2 0 0 0 2.595-5.071l-19.9-27.539a3.172 3.172 0 0 0-5.16 0l-19.9 27.539a3.193 3.193 0 0 0 2.595 5.071h10.227v31.284H27.8C12.325 170.791 0 156.314 0 140.628a29.373 29.373 0 0 1 14.566-25.357 19.693 19.693 0 0 1-1.209-6.87 19.97 19.97 0 0 1 19.99-19.991 19.649 19.649 0 0 1 6.84 1.209 40.02 40.02 0 0 1 76.042 13.209c15.951 2.742 28.07 17.514 28.07 34.232.001 17.868-13.917 33.347-31.549 34.586z" transform="translate(0 -66.65) translate(0 66.65) translate(0 -66.65)" /> </g>
+							</g>
+						</svg>
+						<div class="title"> Drop your image here, or <span>choose file</span> </div>
+						<div class="description"> Supports: JPG, PNG </div>
+					</div>
+					<input id="file-uploader" multiple="true" name="files" accept=".jpg, .png" type="file"/> </div>
+			  </div>
+				<div class="image-preview">
+					<div id="sortableimgthumbnail-preview"></div>
+				</div>
+			</div>
+			<div class="submit-button-wrapper">
+				<button class="submit-button">Submit</button>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>  -->
+		<script src="custom.js"></script>
+</body>
+</html>
