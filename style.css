@@ -104,6 +104,8 @@ img {
 	margin: auto;
 	padding-top: 65px;
 }
+
+/* Progress bar animation */
 #progress-wrapper {
 	position: relative;
 	width: 100%;
